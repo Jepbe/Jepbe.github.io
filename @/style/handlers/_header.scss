@@ -1,0 +1,91 @@
+// midlertidigt lort
+.navIcon {
+  display: none;
+}
+
+header-element {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  height: 75px;
+  width: 100%;
+  background-color: white;
+}
+
+.container {
+  position: absolute;
+  left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  z-index: 200;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  max-width: 65%;
+  max-height: 50px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  z-index: 200;
+}
+
+.login-btn {
+  position: absolute;
+  right: 70px;
+  font-size: 18px;
+}
+
+.nav-img {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  height: 50px;
+}
+
+.container-nav-ul {
+  list-style-type: none;
+}
+
+.container-nav {
+  position: absolute;
+  left: 240px;
+}
+
+.container-nav-ul li {
+  display: inline-block;
+  padding: 0 1.25rem;
+  font-size: 18px;
+}
+
+.open {
+  height: 100vh;
+  z-index: 10;
+}
+
+/* Mobile */
+ @media all and (max-width: 980px) {
+   .container {
+     flex-direction: column;
+     align-items: flex-start;
+     max-height: 100%;
+     z-index: 10;
+     
+   }
+   .container-nav {
+     height: 0;
+     width: 100%;
+     overflow: hidden;
+     transition: 250ms height ease-in-out;
+   }
+
+   .container-nav-ul li {
+     display: block;
+     text-align: center;
+     padding: 1.5rem 0;
+   }
+ }
