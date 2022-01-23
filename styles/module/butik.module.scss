@@ -1,0 +1,52 @@
+@import '../handlers/fonts';
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+    width: 100%;
+    gap: 1.5rem;
+    padding: 10rem;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.container1 div {
+    width: 20rem;
+    height: 33rem;
+    background-color: rgb(240, 240, 240);
+}
+
+.item1 {
+    width: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1 img {
+    width: 90%;
+}
+
+.TopContainer {
+    width: 100%;
+    height: 65vh;
+    background-image: url("https://jepbe.github.io/img/BassPaaScene_2.jpeg");
+    background-size: 100%;
+    background-position-y: -20vh;
+}
+
+.topText {
+    color: white;
+    font-family: Poppins-ExtraBold;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    text-align: center;
+    top: 15rem;
+}
