@@ -24,9 +24,10 @@ function submitbtn() {
     var mainInput = document.getElementById("minput").value;
 
     if (mainInput == secretPasscode) {
-        console.log("works")
+        console.log("works");
+        window.location.href = "/secret/secretpage/verrysecretpage/premiumPage/premiumppage.html"        
     }else {
-        console.log("fuck!")
+        alert("WRONG CODE (POLiCE HAS BEEN NOTIFIED!")
     }
 
 }
