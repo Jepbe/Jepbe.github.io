@@ -36,3 +36,21 @@
     color: white;
 
 }
+
+/* main page */
+
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.minput {
+    border: 1px solid black;
+}
+
+.mbtn {
+    border: 1px solid black;
+}
