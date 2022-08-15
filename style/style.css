@@ -110,3 +110,9 @@ body {
     color: black;
     transition: .15s ease-in-out;
 }
+
+.disclamier {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
