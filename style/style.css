@@ -75,6 +75,10 @@
         right: 10px;
         position: absolute;
     }
+
+    .vidbtn {
+        margin-left: 2rem;
+    }
 }
 
 
@@ -115,4 +119,9 @@ body {
     position: fixed;
     right: 0;
     bottom: 0;
+    opacity: 50%;
+}
+
+.vidbtn {
+    margin-right: 7rem;
 }

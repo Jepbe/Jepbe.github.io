@@ -54,3 +54,10 @@
 #sbtn {
     border: 1px solid black;
 }
+
+.disclamier {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 50%;
+}
