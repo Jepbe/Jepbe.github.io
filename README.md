@@ -1,3 +1,2 @@
-# Emil Hub, This is a small for fun project made by Jeppe Bøgeskov Bech, this has no connection to Nordic Code Group.
-
-This is just for fun, and everyone on the page as given consent to be on the page, and think its funny.
+# Backend Challenges boilerplate - package.json
+[![Run on Repl.it](https://repl.it/badge/github/freeCodeCamp/boilerplate-npm)](https://repl.it/github/freeCodeCamp/boilerplate-npm)
