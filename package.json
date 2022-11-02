@@ -1,6 +1,11 @@
 {
 	"author": "Jeppe Bøgeskov Bech",
 	"name": "fcc-learn-npm-package-json",
+	"keywords": ["suck", "dick", "bitch", "freecodecamp"],
+	"description": "Suck it up",
+  	"license": "MIT",
+  	"version": "1.01",
+	
 	"dependencies": {
 		"express": "^4.14.0"
 	},
