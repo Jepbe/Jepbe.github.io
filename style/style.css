@@ -5,12 +5,17 @@ p {
 }
 
 .mDiv {
-  
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .loading:after {
   content: ' .';
-  animation: dots 1.5s steps(5, end) infinite;}
+  animation: dots 1.25s steps(5, end) infinite;
+}
+  
 
 @keyframes dots {
   0%, 20% {
