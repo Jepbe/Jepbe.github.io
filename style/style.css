@@ -3,6 +3,10 @@
   src: url(fonts/Poppins-Regular.ttf);
 }
 
+body {
+  background-color: #efefef;
+}
+
 p {
   font-family: 'Poppins';
   font-weight: 600;
@@ -14,6 +18,18 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.Button {
+  border: none;
+  cursor: pointer;
+  padding: .1rem;
+}
+
+.github, .LinkedIn {
+  font-size: 30px;
+  text-align: center;
 }
 
 .loading:after {
