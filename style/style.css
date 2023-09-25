@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(fonts/Poppins-Regular.ttf);
+}
+
 p {
   font-family: 'Poppins';
-  src: local('../fonts/Poppins-Regular.ttf');
+  font-weight: 600;
   text-align: center;
 }
 
